@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Case Study: Go Together</title>
+  </head>
+  <body>
+
+    <!-- Navigation with Navbar component -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Go Together</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#research">Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#problem">Problem</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#process">Process</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prototype">Prototype</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conclusion">Conclusion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+   
+       <!-- Home/introduction with jumbotron -->
+  <section id="home">
+    <div class="jumbotron jumbotron-fluid hero-image">
+      <div class="container-fluid">
+        <h1 class="display-1 jumbo-head">Go Together</h1>
+       <div class="container jumbo-lead">
+        <p>The pandemic over, and it’s time to see the world!  With the Go Together app, friends
+           and families can create memorable travel experiences that will reflect the interests of everyone in the group.
+        </p>
+        </div>
+      </div>
+    </div> 
+
+    <!-- Home/details with jumbotron -->
+    <div class="jumbotron jumbotron-fluid hero-details">
+      <div class="container-fluid .px-3 hero-detail-text">
+        <p>MY ROLE:  UX designer (individual project with partner contribution) </p>
+        <p>TIMELINE:  4 weeks</p>
+        <p>THE PROBLEM: Many people travel to create memorable moments.  Disagreements within groups about what to do creates stress, especially for the main planner.</p>
+        <P>THE SOLUTION: This app allows people traveling together to create interest profiles, and provides recommendations for activities and places to stay based on common interests.</P>
+      </div>
+    </div> 
+  </section>
+    <!-- Research cards -->
+  <section id="research">
+    <h2>Research</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-5 mb-4 ms-4 research-cards">
+        <div class="col">
+          <div class="card h-100 m-4">
+            <img src="images/Interview_quotes.png" class="card-img-top" alt="3 quotes from interviews">
+            <div class="card-body">
+              <h5 class="card-title">Interviews</h5>
+              <p class="card-text">5 interviews were conducted on the topics of post-pandemic travel habits, planning, and desired experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 m-4">
+            <img src="images/Affinity.png" class="card-img-top" alt="affinity diagram">
+            <div class="card-body">
+              <h5 class="card-title">Affinity Diagram</h5>
+              <p class="card-text">Grouping of responses showed that most people travel in groups, creating both goals and pain points for the planner in regards to keeping the group happy and coordinated.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 m-4">
+            <img src="images/Empathy_map.png" class="card-img-top" alt="empathy map">
+            <div class="card-body">
+              <h5 class="card-title">Empathy Map</h5>
+              <p class="card-text">An empathy map was created from the perspective of the planner of a trip with multiple companions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 m-4">
+            <img src="images/Persona.png" class="card-img-top" alt="User persona">
+            <div class="card-body">
+              <h5 class="card-title">Persona</h5>
+              <p class="card-text">Jane Snow is a busy, working mother desiring to create a memorable and harmonious family vacation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Problem statement -->
+    <section id="problem">
+      <div class="container-fluid ps-container py-5">
+        <h2>Problem Statement</h2>
+          <div class="col col-12 col-lg-4 mx-auto"><p class="ps-text">
+            Working parents with demanding jobs struggle to create memorable moments with their families.</p>
+            <p> How might we design a travel app that will allow parents who plan travel to meet the interests of everyone in the group so that families are able to enjoy stress-free time together?
+             </p>
+          </div>
+      </div>
+    </section>
+    <section id="process">
+      <h2>Solution Process</h2>
+      <!-- Ideation cards --> 
+      <div class="card-group ideation-cards">
+        <div class="row row-cols-1 row-cols-md-2 g-5 mx-3 research-cards">
+        <div class="col">
+        <div class="card h-100 m-4">
+          <img src="images/Brainstorm.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Brainstorming</h5>
+            <p class="card-text">I like, I wish, What if lists generated possible features of an app to address the problem </p>
+          </div>
+        </div>
+        </div>
+        <div class="col">
+        <div class="card h-100 m-4">
+          <img src="images/Feature_prioritizaion.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Feature Priority Matrix</h5>
+            <p class="card-text">Possible features were narrowed down using a feature priority matrix.  From the low complexity, high impact quadrant features providing suggestions to meet everyone’s needs were chosen.</p>
+        </div>
+        </div>
+      </div>
+
+      </div>
+      <!-- Storyboard cards --> 
+      <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-3 storyboard-cards">
+        <div class="col">
+          <div class="card h-100">
+             <div class="card-header storyboard-bg">1.  Jane feels disconnected.</div>
+             <div class="card-body storyboard-bg">
+              <div class="story-image-container text-center">
+               <img src="images/storyboard1.PNG" class="story-board-image" alt="...">
+             </div>
+              <p class="card-text">Jane has been working long hours trying to keep up with orders for her compounded nutritional supplements.  She feels disconnected from her family.</p>
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+             <div class="card-header storyboard-bg">2.   She wants to make her family happy.</div>
+             <div class="card-body storyboard-bg">
+                <div class="story-image-container text-center">
+                 <img src="images/storyboard2.PNG" class="story-board-image" alt="...">
+                </div>
+            
+              <p class="card-text">She decided to plan a memorable trip.  One of her sons wants to go to the beach and just hang out.  Her other son wants to go to an amusement park and ride every ride.  Her husband just wants great food.</p>
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+             <div class="card-header storyboard-bg">3.    She goes to the app.</div>
+             <div class="card-body storyboard-bg">
+                <div class="story-image-container text-center">
+                 <img src="images/storyboard3.PNG" class="story-board-image" alt="...">
+                </div>
+            
+              <p class="card-text">Jane decided to try the Go Together app for help in planning something to make everyone happy.  She enters everyone’s “Likes” and searches for accommodations that will be close proximity to everything they want to do.</p>
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+             <div class="card-header storyboard-bg">4.  The app finds 2 great hotels.</div>
+             <div class="card-body storyboard-bg">
+                <div class="story-image-container text-center">
+                 <img src="images/storyboard4.PNG" class="story-board-image" alt="...">
+                </div>
+            
+              <p class="card-text">The app suggests 2 beach-front hotels within 4 blocks of a “must try” restaurant and within a 15-minute drive of 2 amusement parks.</p>
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+             <div class="card-header storyboard-bg">5.  She books hotel with best amenities.</div>
+             <div class="card-body storyboard-bg">
+                <div class="story-image-container text-center">
+                 <img src="images/storyboard5.PNG" class="story-board-image" alt="...">
+                </div>
+            
+              <p class="card-text">Jane chooses the hotel with discount tickets to an amusement part, a free shuttle service, and a full breakfast buffet. </p>
+           </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+             <div class="card-header storyboard-bg">6.   Jane happily starts packing.</div>
+             <div class="card-body storyboard-bg">
+                <div class="story-image-container text-center">
+                 <img src="images/storyboard6.PNG" class="story-board-image" alt="...">
+                </div>
+            
+              <p class="card-text">Jane starts packing for an amazing trip.</p>
+           </div>
+          </div>
+        </div>
+      </div>
+      <p>Illustrations by Katie Morozova</p>
+      <div style="width:100%"></div>
+
+      <!-- User flows and testing -->
+
+      <div class="card single-card pb-4" style="max-width: 75rem">
+        <img src="images/Initial-user-flow.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Initial User Flow</h5>
+          <p class="card-text">Initial user flow with account creation, traveler profile, companion profiles, and trip creation with recommendations based on profiles of all travelers in the group.</p>
+        </div>
+      </div>
+      <div style="width:100%"></div>
+
+      <div class="card mb-3 single-card test-results" style="max-width: 75rem">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <img src="images/Testing_results.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body ms-3">
+              <h5 class="card-title mt-3">Insights and Iterations</h5>
+              <p class="card-text" style="text-align: left">Insight: It would be cumbersome for the planner to add all the traveler profiles. 
+              </p>
+              <p class="card-text ms-3" style="text-align: left" >Iteration: Allow travelers to create and share profiles</p>
+              <p class="card-text" style="text-align: left">Insight: Meaning of profile markers needs clarification.</p>
+              <p class="card-text ms-3" style="text-align: left">Iteration: Added text clues</p>
+              <p class="card-text ms-3" style="text-align: left">Iteration: Added the user as the first of the companions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="width:100%"></div>
+      <div class="card single-card pb-4 mb-5" style="max-width: 75rem;">
+        <img src="images/Final-user-flow.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Iterated User Flow</h5>
+          <p class="card-text">Iterated user flow with ability to import shared user profiles rather than having the planner create each profile.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+      <div style="width:100%"></div>
+<!--Prototype in columns-->
+  <section id="prototype">
+    <div style="width:100"></div> 
+    <div class="container-fluid prototype-container m-0 p-5">
+      <h2>Prototype</h2>
+      <div class="row row-cols-lg-auto gy-4">
+        <div class="col wireframe">
+          <img src="images/GT1.png" style="width:10rem;">
+        </div>
+        <div class="col wireframe">
+          <img src="images/GT2.png" style="width:10rem;">
+        </div>
+      <div class="col wireframe">
+        <img src="images/GT3.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT4.png" style="width:10rem;">
+      </div>
+    </div>
+    <div style="width:100%"></div>
+    <div class="row row-cols-lg-auto gy-4">
+      <div class="col wireframe">
+        <img src="images/GT5.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT6.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT7.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT8.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT9.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT10.png" style="width:10rem;">
+      </div> 
+    </div>
+    <div style="width:100%"></div>
+    <div class="row  row-cols-lg-auto gy-4">
+      <div class="col wireframe">
+        <img src="images/GT11.png" style="width:10rem;">
+      </div> <div class="col wireframe">
+        <img src="images/GT12.png" style="width:10rem;">
+      </div> <div class="col wireframe">
+        <img src="images/GT13.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT14.png" style="width:10rem;">
+       </div>
+      <div class="col wireframe">
+        <img src="images/GT15.png" style="width:10rem;">
+      </div>
+    </div>
+    <div style="width:100%"></div>
+    <div class="row row-cols-lg-auto gy-4">
+      <div class="col wireframe">
+        <img src="images/GT16.png" style="width:10rem;">
+      </div> 
+      <div class="col wireframe">
+        <img src="images/GT17.png" style="width:10rem;">
+      </div>
+      <div class="col wireframe">
+        <img src="images/GT18.png" style="width:10rem;">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+ <!-- Conclusion with jumbotron -->
+ <section id="conclusion">
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container-fluid conclusion">
+   <div class="container conclusion-text pt-5">
+    <h1 class="display-6 pt-5">Where do we go from here?</h1>
+      <img src="images/footprints.svg" class="footprint">
+      <p><img src="images/footprints.svg" class="footprint p-1">Sharing of trip information with all selected companions</p>
+      <p><img src="images/footprints.svg" class="footprint p-1">Selection by proximity</p>
+      <p><img src="images/footprints.svg" class="footprint p-1">Warnings or schedule blocking to avoid scheduling conflicts</p>
+      <p><img src="images/footprints.svg" class="footprint p-1">Adding restaurant options</p>
+      <p><img src="images/footprints.svg" class="footprint p-1">Option for individual travelers to opt in or out of activities</p>
+    </div>
+  </div>
+</div> 
+<button class="btn"></button>
+</section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

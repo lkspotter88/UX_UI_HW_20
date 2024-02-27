@@ -1,0 +1,120 @@
+body{
+    background-color:#f5f3f0 ;
+}
+h1{
+    font-family:"Open Sans";
+}
+
+h2{
+    font-family: "Open Sans";
+    padding-top:5rem;
+    padding-bottom: 4rem;
+    text-align:center;
+}
+
+h5{
+    text-align:center;
+}
+
+.row{
+    margin-bottom: 2.5rem;
+}
+
+/* styling for navbar */
+
+/* styling jumbotron */
+.jumbotron {
+    width: 100%;
+    height: 100dvh;
+    text-align:center;
+}
+
+.hero-image{ 
+    background-image: url(../images/chang-duong-Sj0iMtq_Z4w-unsplash-crop.png);
+    background-size: cover;
+}
+
+.jumbo-head{
+    font-family:"Open Sans";
+    padding-top: 10%;
+     
+}
+
+.jumbo-lead{
+    font-family: "Lora";
+    font-size: 1.25rem;
+    max-width: 60%;
+    min-width: 18rem;
+    padding-top:1%;
+}
+
+.hero-details{
+    background-color: #fbe8a6;
+    text-align:left;
+    height: fit-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}
+
+.hero-detail-text{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    min-width:18rem;
+    width: 50%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.research-cards{
+    margin-bottom: 3rem;
+}
+
+.ps-container{
+    background-color: #fbe8a6;
+    text-align: center;
+}
+
+.storyboard-cards{
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:5rem;
+    padding-bottom:1rem;
+}
+
+.storyboard-bg{
+    background-color: #daeff2;
+}
+
+.story-board-image{
+    width:90%;
+    padding-bottom:1rem;
+}
+
+.single-card{
+    width:90%;
+    margin-top:5rem;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+
+.prototype-container{
+    background-color:#daeff2;
+}
+
+
+.conclusion{
+    background-image: url(../images/timon-studler-BIk2ANMmNz4-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100dvh;
+}
+
+.footprint{
+    width:2rem;
+}
+
+
+
